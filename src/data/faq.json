@@ -1,0 +1,63 @@
+[
+    {
+        "question": "What is a Job Portal?",
+        "answer": "A Job Portal is an online platform that allows job seekers to find and apply for job openings, and employers to post job opportunities."
+    },
+    {
+        "question": "How do I create an account?",
+        "answer": "You can create an account by clicking on the 'Sign Up' button and filling out the registration form with your personal details."
+    },
+    {
+        "question": "How do I log in?",
+        "answer": "Log in by entering your email and password on the login page and clicking the 'Login' button."
+    },
+    {
+        "question": "How do I reset my password?",
+        "answer": "If you forget your password, you can reset it by clicking on the 'Forgot Password' link and following the instructions."
+    },
+    {
+        "question": "How do I search for jobs?",
+        "answer": "You can search for jobs using the search bar, filtering by keywords, location, job type, and more."
+    },
+    {
+        "question": "How do I apply for a job?",
+        "answer": "To apply for a job, click on the job listing and follow the application instructions provided."
+    },
+    {
+        "question": "Can I save jobs to apply later?",
+        "answer": "Yes, you can save jobs by clicking the 'Save Job' button on the job listing."
+    },
+    {
+        "question": "How do I track my job applications?",
+        "answer": "You can track your job applications from the 'My Applications' section of your account."
+    },
+    {
+        "question": "How do I update my profile?",
+        "answer": "Update your profile by navigating to the 'Profile' section and editing your information."
+    },
+    {
+        "question": "How do I upload my resume?",
+        "answer": "You can upload your resume by going to the 'Resume' section and clicking on the 'Upload Resume' button."
+    },
+    {
+        "question": "Can I set up job alerts?",
+        "answer": "Yes, you can set up job alerts by specifying your preferences in the 'Job Alerts' section."
+    },
+    {
+        "question": "How do I contact an employer?",
+        "answer": "You can contact an employer through the messaging system available within the job portal."
+    },
+    {
+        "question": "What should I include in my job application?",
+        "answer": "Your job application should include your resume, a cover letter, and any other required documents specified in the job listing."
+    },
+    {
+        "question": "Can I apply for multiple jobs?",
+        "answer": "Yes, you can apply for multiple jobs by submitting separate applications for each job listing."
+    },
+    {
+        "question": "How do I delete my account?",
+        "answer": "You can delete your account by going to the 'Account Settings' and selecting the 'Delete Account' option."
+    }
+    
+]
