@@ -4,7 +4,7 @@ import { Button } from "./components/ui/button";
 import AppLayout from "./layouts/AppLayout";
 import LandingPage from "./pages/LandingPage";
 import Onboarding from "./pages/Onboarding.jsx";
-import Job from "./pages/job";
+import Job from "./pages/Job";
 import JobListing from "./pages/JobListing";
 import PostJob from "./pages/PostJob";
 import SavedJob from "./pages/SavedJob";
