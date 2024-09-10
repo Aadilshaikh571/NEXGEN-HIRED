@@ -8,12 +8,7 @@ import { Link } from "react-router-dom";
 import companies from "../data/companies.json";
 import faqs from "../data/faq.json";
 import Autoplay from "embla-carousel-autoplay";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   Accordion,
   AccordionContent,
@@ -27,8 +22,16 @@ const LandingPage = () => {
       <section className="text-center">
         <h1 className="flex flex-col items-center justify-center gredient-title text-4xl font-extrabold sm:text-6xl  tracking-tighter py-4">
           Find Your Dream Job on
-          <span className="flex items-center gap-2 sm:gap-6 lg:text-8xl">
-            R.HIRED
+          <span className="flex items-center gap-6 sm:gap-10 lg:gap-12 text-6xl sm:text-7xl lg:text-9xl font-extrabold text-gray-900 hover:text-indigo-600 transition-colors duration-300 transform hover:scale-105 hover:translate-y-1">
+            <span className="relative bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-500 bg-clip-text text-transparent shadow-lg hover:shadow-xl transition-shadow duration-300 hover:opacity-90">
+              NEXGEN
+            </span>
+            <span className="relative text-gray-800 hover:text-gray-200 transition-colors duration-300">
+              <span className="absolute  transform -translate-x-1 -translate-y-1 transition-transform duration-300"></span>
+              <span className="relative z-10 hover:translate-x-1 hover:translate-y-1 transition-transform duration-300">
+                HIRED
+              </span>
+            </span>
           </span>
         </h1>
         <p className="text-gray-300 sm:mt-4 text-sx sm:text-xl">
@@ -42,7 +45,7 @@ const LandingPage = () => {
           </Button>
         </Link>
         <Link to={"/post-job"}>
-          <Button variant="blue" size="xl" >
+          <Button variant="blue" size="xl">
             Post a Job
           </Button>
         </Link>
