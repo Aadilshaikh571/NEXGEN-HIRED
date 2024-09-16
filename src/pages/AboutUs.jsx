@@ -8,7 +8,17 @@ const AboutUs = () => {
       {/* Header */}
       <div className="header-section text-center mb-16">
         <h1 className="about-us-header">About Us</h1>
-        <h1 className="gradient-title">R.HIRED</h1>
+        <span className="flex items-center gap-6 sm:gap-10 lg:gap-12 text-6xl sm:text-7xl lg:text-9xl font-extrabold text-gray-900 hover:text-indigo-600 transition-colors duration-300 transform hover:scale-105 hover:translate-y-1">
+    <span className="relative bg-gradient-to-r from-teal-500 via-cyan-500 to-blue-500 bg-clip-text text-transparent shadow-lg hover:shadow-xl transition-shadow duration-300 hover:opacity-90">
+      NEXGEN
+    </span>
+    <span className="relative text-gray-800 hover:text-gray-200 transition-colors duration-300">
+      <span className="absolute transform -translate-x-1 -translate-y-1 transition-transform duration-300"></span>
+      <span className="relative z-10 hover:translate-x-1 hover:translate-y-1 transition-transform duration-300">
+        HIRED
+      </span>
+    </span>
+  </span>
       </div>
 
       {/* Description */}
