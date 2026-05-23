@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nexgen-hired-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nexgen-hired
+  template:
+    metadata:
+      labels:
+        app: nexgen-hired
+    spec:
+      containers:
+      - name: nexgen-hired
+        image: prince571/nexgen-hired:v1
+        ports:
+        - containerPort: 80
